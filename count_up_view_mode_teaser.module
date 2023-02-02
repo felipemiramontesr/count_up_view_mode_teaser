@@ -1,0 +1,10 @@
+<?php 
+function count_up_view_mode_teaser_theme($existing, $type, $theme, $path) {
+  return [
+    'node__countup__teaser' => [
+      'template' => 'node--countup--teaser',
+      'base hook' => 'node',
+    ],
+  ];
+}
+?>

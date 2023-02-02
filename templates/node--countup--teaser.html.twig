@@ -1,0 +1,30 @@
+{{ attach_library('count_up_view_mode_teaser/count_up_view_mode_teaser-styles') }}
+
+{% set countUpStyle %}
+{{content.field_count_up_style}}
+{% endset %}
+
+{% set sufix %}
+{{content.field_count_up_sufix}}
+{% endset %}
+
+{% set label_ %}
+{{label}}
+{% endset %}
+
+<div id={{'node-count-up-'~ node.id}} class="{{countUpStyle|striptags|spaceless}}">
+  <div id={{'node-count-up-header-teaser-' ~ node.id}} class="node-count-up-header-teaser">
+    {{label_|striptags}}
+  </div>
+  <div id={{'node-count-up-content-teaser-' ~ node.id}} class="node-count-up-content-teaser">
+    <div id="{{node.id}}" class="node-count-up-number">
+      100
+    </div>
+    <div id={{'node-count-up-label-' ~ node.id}} class="node-count-up-label">
+      {{sufix|striptags}}
+    </div>
+  </div>
+  <div id={{'node-count-up-footer-teaser-' ~ node.id}} class="node-count-up-footer-teaser">
+    {{content.body}}
+  </div>
+</div>

@@ -1,0 +1,8 @@
+name: Count-up View Mode Teaser
+description: Allow users to set a Count-up View Mode Teaser in Count-up Content Type.
+package: Statistics
+
+type: module
+core_version_requirement: ^9.4 || ^10
+libraries: -count_up_view_mode_teaser/js
+  -count_up_view_mode_teaser/css
