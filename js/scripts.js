@@ -1,4 +1,5 @@
-$(document).ready(function () {
+(function ($) {
+  //$(document).ready(function () {
   const uri = get_domain();
   /***************************************************/
   let html_elements = document.querySelectorAll(".node-count-up-number");
@@ -74,4 +75,5 @@ $(document).ready(function () {
     } catch (error) {}
     return paragraphData;
   }
-});
+  //});
+})(jQuery);
