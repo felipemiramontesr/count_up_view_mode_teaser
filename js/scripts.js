@@ -1,11 +1,22 @@
 $(document).ready(function () {
-  const uri = "http://localhost/treedff/web/";
-
+  const uri = get_domain();
+  /***************************************************/
   let html_elements = document.querySelectorAll(".node-count-up-number");
-  iterate(html_elements);
+  iterate_elements(html_elements);
 
   /* functions ****************************************************/
-  async function iterate(html_elements) {
+  /* Domain configuration ****************************/
+  /* Feel free to set your on domain conf ***********/
+  function get_domain() {
+    let domain = window.location.hostname;
+    let projectDirectory = "/treedff/web/"; // "" - no spaces for projects in root directory
+    let http = "http://"; // "https://" - for SSL sites
+    console.log("Domain: " + http + domain + projectDirectory);
+    let url = http + domain + projectDirectory;
+    return url;
+  }
+
+  async function iterate_elements(html_elements) {
     try {
       var i = 0;
       while (i < html_elements.length) {
@@ -61,7 +72,6 @@ $(document).ready(function () {
       );
       var paragraphData = await response.json();
     } catch (error) {}
-
     return paragraphData;
   }
 });
