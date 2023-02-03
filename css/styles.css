@@ -33,8 +33,8 @@
   .georgia .node-count-up-content-teaser .node-count-up-number {
     margin: 25px;
     text-align: center;
-    line-height: 1;
-    font-size: 98px;
+    line-height: 1.4;
+    font-size: 72px;
     font-weight: bolder;
     color: #c1d42f;
   }
@@ -78,8 +78,8 @@
   .default .node-count-up-content-teaser .node-count-up-number {
     margin: 25px;
     text-align: center;
-    line-height: 1;
-    font-size: 98px;
+    line-height: 1.4;
+    font-size: 72px;
     font-weight: bolder;
     color: #7795b6;
   }
@@ -123,8 +123,8 @@
   .california .node-count-up-content-teaser .node-count-up-number {
     margin: 25px;
     text-align: center;
-    line-height: 1;
-    font-size: 98px;
+    line-height: 1.4;
+    font-size: 72px;
     font-weight: bolder;
     color: #e4970d;
   }
@@ -134,7 +134,7 @@
     text-align: center;
     font-size: 54px;
     font-weight: bolder;
-    color: #86cbf3;
+    color: #7a7a7a;
   }
   .california .node-count-up-footer-teaser {
     margin-top: 10px;
@@ -168,8 +168,8 @@
   .florida .node-count-up-content-teaser .node-count-up-number {
     margin: 25px;
     text-align: center;
-    line-height: 1;
-    font-size: 98px;
+    line-height: 1.4;
+    font-size: 72px;
     font-weight: bolder;
     color: #66acfa;
   }
@@ -213,8 +213,8 @@
   .new-york .node-count-up-content-teaser .node-count-up-number {
     margin: 25px;
     text-align: center;
-    line-height: 1;
-    font-size: 98px;
+    line-height: 1.4;
+    font-size: 72px;
     font-weight: bolder;
     color: #496494;
   }
@@ -258,8 +258,8 @@
   .texas .node-count-up-content-teaser .node-count-up-number {
     margin: 25px;
     text-align: center;
-    line-height: 1;
-    font-size: 98px;
+    line-height: 1.4;
+    font-size: 72px;
     font-weight: bolder;
     color: #002868;
   }
@@ -303,8 +303,8 @@
   .alabama .node-count-up-content-teaser .node-count-up-number {
     margin: 25px;
     text-align: center;
-    line-height: 1;
-    font-size: 98px;
+    line-height: 1.4;
+    font-size: 72px;
     font-weight: bolder;
     color: #7c5d5a;
   }
@@ -348,10 +348,10 @@
   .new-mexico .node-count-up-content-teaser .node-count-up-number {
     margin: 25px;
     text-align: center;
-    line-height: 1;
-    font-size: 98px;
+    line-height: 1.4;
+    font-size: 72px;
     font-weight: bolder;
-    color: #ffd700;
+    color: #002d56;
   }
   .new-mexico .node-count-up-content-teaser .node-count-up-label {
     margin-top: -20px;
@@ -393,8 +393,8 @@
   .arizona .node-count-up-content-teaser .node-count-up-number {
     margin: 25px;
     text-align: center;
-    line-height: 1;
-    font-size: 98px;
+    line-height: 1.4;
+    font-size: 72px;
     font-weight: bolder;
     color: #e5601a;
   }
